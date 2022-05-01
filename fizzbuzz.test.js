@@ -1,16 +1,16 @@
 const fizzbuzz = require('./fizzbuzz.js');
 
 describe('testing fizzbuzz function', () => {
-  test('when I place 5 I expect to see Buzz', () => {
+  test('The argument of 5 should return Buzz', () => {
     expect(fizzbuzz(5)).toEqual('Buzz');
   });
-  test('placed number 4 i expect to see 4 as the outcome', () => {
+  test('The argument of 4 should return 4', () => {
     expect(fizzbuzz(4)).toEqual(4);
   });
-  test('When the argument is 3 I expect the outcome to be Fizz', () => {
+  test('The argument of 3 should return Fizz', () => {
     expect(fizzbuzz(3)).toEqual('Fizz');
   });
-  test('the argument of 15 should return FizzBuzz', () => {
+  test('The argument of 15 should return FizzBuzz', () => {
     expect(fizzbuzz(15)).toEqual('FizzBuzz');
   });
 });
